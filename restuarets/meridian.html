@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFusion</title>
+    <style>
+      body {
+        margin: 0px;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      #nav {
+        display: flex;
+        justify-content: right;
+      }
+      .link {
+        padding: 10px;
+        transition: transform 1s;
+      }
+      .link:hover {
+        transform: scale(1.3);
+      }
+      .link:active {
+        background-color: rgb(57, 167, 223);
+        border-radius: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #head {
+        background-color: black;
+        color: white;
+
+        font-weight: bolder;
+      }
+      marquee {
+        margin-top: 30px;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      #f-sec {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        padding: 20px;
+        color: white;
+      }
+      main {
+        background: linear-gradient(135deg, #020c18, #0d3b66, #b8860b);
+        color: white;
+      }
+      #d-img {
+        min-height: 60vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url("https://www.fuddo.in//assets/images/data/Meridian_Restaurant_Panjagutta.jpg")
+            center/cover no-repeat;
+      }
+      #d-data {
+        padding: 20px;
+      }
+      .items {
+        color: black;
+        background-color: white;
+        width: 95%;
+        height: 280px;
+        text-align: left;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        overflow: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .img-it {
+        float: left;
+        width: 250px;
+        height: 200px;
+        margin-right: 20px;
+      }
+      .bt4 {
+        width: 60%;
+        text-align: center;
+        margin-left: 20px;
+        padding: 15px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <nav id="nav">
+        <marquee behavior="" direction="">
+          Order Now To Get Buy 1 Get 1 Free Food
+        </marquee>
+        <p class="link"><a href="../index.html">Home</a></p>
+        <p class="link"><a href="../food-section.html">FOOD SECTION</a></p>
+        <p class="link"><a href="../orders.html">ORDERS</a></p>
+        <p class="link"><a href="../login.html">LOG-IN</a></p>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div id="d-img"></div>
+        <div id="d-data">
+          <div class="items">
+            <h2>🍗 Chicken Shawarma</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSgfjjLtjWoCj35um9Q9ujXXVGHAyxq6FTTvuJCFILaA&s"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Juicy marinated chicken wrapped with fresh vegetables and creamy
+              sauce.
+            </p>
+
+            <p>A flavorful and filling choice for shawarma lovers.</p>
+            <p>$220.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🥩 Mutton Shikampur</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPQfJ4IYdPwlRHC42t13-ugr_cGIrSUDSVbnwWVOqI4Q&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Minced mutton blended with aromatic spices and cooked until
+              tender.
+            </p>
+
+            <p>A rich and traditional dish with a deliciously spiced flavor.</p>
+            <p>$280.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍤 Prawn Masala</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAk1qoUZBAaywuUoV3HakFH-vT01Gnvsb9BRxAd35aOwgSqp7Itiys4Ew&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>Fresh prawns cooked in a spicy, aromatic masala gravy.</p>
+            <p>A flavorful seafood specialty perfect with rice or naan.</p>
+            <p>$320.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍗 Chicken Malai Tikka</h2>
+            <img
+              src="https://i.ytimg.com/vi/VktdyKFrKwo/sddefault.jpg?v=68edbe94"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Soft chicken pieces marinated in creamy spices and grilled to
+              perfection.
+            </p>
+            <p>Mild, juicy, and rich in flavor.</p>
+            <p>$299.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍮 Caramel Custard</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWLpPGlQU853_iD0X_-oNCPT36YaPgZHnhy_gvQO0rA&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>A smooth and creamy custard topped with golden caramel sauce.</p>
+            <p>A sweet and refreshing way to finish your meal.</p>
+            <p>$140.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Copy Rights Puchased By Amar</footer>
+  </body>
+</html>

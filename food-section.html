@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFusion</title>
+    <style>
+      body {
+        margin: 0px;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      #nav {
+        display: flex;
+        justify-content: right;
+      }
+      .link {
+        padding: 10px;
+        transition: transform 1s;
+      }
+      .link:hover {
+        transform: scale(1.3);
+      }
+      .link:active {
+        background-color: rgb(57, 167, 223);
+        border-radius: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #head {
+        background-color: black;
+        color: white;
+
+        font-weight: bolder;
+      }
+      marquee {
+        margin-top: 30px;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      #f-sec {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        padding: 20px;
+        color: white;
+      }
+      .Restaurant {
+        background-color: white;
+        width: 450px;
+        height: 300px;
+        text-align: left;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        overflow: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* box-shadow: 10px 0px 9px; */
+      }
+
+      img {
+        float: right;
+        border-radius: 5px;
+      }
+      .bt1 {
+        width: 90%;
+        text-align: center;
+        margin-left: 20px;
+        padding: 15px;
+        border: none;
+        background-color: green;
+        color: white;
+        border-radius: 8px;
+        transition: transform 1s;
+      }
+      .bt1:active {
+        background-color: whitesmoke;
+        color: black;
+      }
+      .bt1:hover {
+        transform: scale(1.1);
+      }
+      main {
+        min-height: 100vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIql6tRWdOQE7Xx5Pb5gWl1wvdkJ2YEl-lqqi5SBpcQ&s=10")
+            center/cover no-repeat;
+      }
+      #rst {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <nav id="nav">
+        <marquee behavior="" direction="">
+          Order Now To Get Buy 1 Get 1 Free Food
+        </marquee>
+        <p class="link"><a href="./index.html">Home</a></p>
+        <p class="link"><a href="./food-section.html">FOOD SECTION</a></p>
+        <p class="link"><a href="./orders.html">ORDERS</a></p>
+        <p class="link"><a href="./login.html">LOG-IN</a></p>
+      </nav>
+    </header>
+    <main>
+      <article>
+        .
+        <h1 id="rst">Our Restaurants</h1>
+        <div id="f-sec">
+          <div class="Restaurant">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStikYofyLDXqGSv0TVd8aOUM1c6mV9o1-iZLjhpB4qZQ&s=10"
+              alt=""
+            />
+            <h2>Mehfil Restaurant</h2>
+            <p>
+              Mehfil Restaurant brings you rich, authentic flavors made with
+              fresh ingredients and traditional recipes.
+            </p>
+            <p>
+              🍛 From delicious biryanis to mouth-watering kebabs, every meal is
+              a celebration of taste!
+            </p>
+            <a href="./restuarets/mehfit.html"
+              ><button class="bt1">Click To See Items</button></a
+            >
+          </div>
+          <div class="Restaurant">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS42ac9sF-bGgTKTsaZICq8bTJ0m9N6cpyjGlQVeW-1zA&s=10"
+              alt=""
+            />
+            <h2>Pista House Restaurant</h2>
+            <p>
+              Pista House is known for its delicious biryani, Haleem, and
+              authentic Hyderabadi flavors.
+            </p>
+            <p>
+              🍛 Enjoy rich, traditional dishes prepared with quality
+              ingredients and unforgettable taste!
+            </p>
+            <a href="./restuarets/pista-house.html"
+              ><button class="bt1">Click To See Items</button></a
+            >
+          </div>
+          <div class="Restaurant">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA9jsjmum1SIF9gw48690mS-TLYPi-PsKzYTu-b1oDjg&s=10"
+              alt=""
+            />
+            <h2>Meridian Restaurant</h2>
+            <p>
+              Meridian Restaurant is known for its flavorful biryani, delicious
+              kebabs, and rich Hyderabadi cuisine.
+            </p>
+            <p>
+              🍛 Enjoy authentic taste, fresh ingredients, and a memorable
+              dining experience!
+            </p>
+            <a href="./restuarets/meridian.html"
+              ><button class="bt1">Click To See Items</button></a
+            >
+          </div>
+          <div class="Restaurant">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYvv_fjX_xnzT1sTEED8EkxxUcLNFZ36e9hQufcsq6g&s"
+              alt=""
+            />
+            <h2>Shah Ghouse Restaurant</h2>
+            <p>
+              Shah Ghouse is famous for its flavorful biryani, juicy kebabs, and
+              authentic Hyderabadi cuisine.
+            </p>
+            <p>
+              🍛 Enjoy rich spices, traditional recipes, and delicious dishes
+              made for every food lover!
+            </p>
+            <a href="./restuarets/shoh-ghouse.html"
+              ><button class="bt1">Click To See Items</button></a
+            >
+          </div>
+          <div class="Restaurant">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj025Sp50Tgb--USGa1hW3dXB3bhDOcfOs2MMLB_CQ8wNVhr6-kxk9NhQ&s=10"
+              alt=""
+            />
+            <h2>Shadab Restaurant</h2>
+            <p>
+              Shadab Restaurant is famous for its delicious Hyderabadi biryani,
+              haleem, and flavorful kebabs.
+            </p>
+            <p>
+              🍛 Enjoy authentic flavors, traditional recipes, and a truly
+              satisfying dining experience!
+            </p>
+            <a href="./restuarets/shadab.html"
+              ><button class="bt1">Click To See Items</button></a
+            >
+          </div>
+          <div class="Restaurant">
+            <img
+              src="https://content.jdmagicbox.com/v2/comp/hyderabad/i4/040pxx40.xx40.171013211011.y2i4/catalogue/capital-multicuisine-restaurant-malakpet-hyderabad-north-indian-restaurants-5uv8dlnkji-250.jpg"
+              alt=""
+            />
+            <h2>Capital Restaurant</h2>
+            <p>
+              Capital Restaurant is known for its delicious biryani, flavorful
+              kebabs, and authentic Hyderabadi cuisine.
+            </p>
+            <p>
+              🍛 Enjoy rich flavors, fresh ingredients, and a satisfying dining
+              experience!
+            </p>
+            <a href="./restuarets/capital.html"
+              ><button class="bt1">Click To See Items</button></a
+            >
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Copy Rights Puchased By Amar</footer>
+  </body>
+</html>

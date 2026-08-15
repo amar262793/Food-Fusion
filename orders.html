@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFusion</title>
+    <style>
+      body {
+        margin: 0px;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      #nav {
+        display: flex;
+        justify-content: right;
+      }
+      .link {
+        padding: 10px;
+        transition: transform 1s;
+      }
+      .link:hover {
+        transform: scale(1.3);
+      }
+      .link:active {
+        background-color: rgb(57, 167, 223);
+        border-radius: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #head {
+        background-color: black;
+        color: white;
+
+        font-weight: bolder;
+      }
+      marquee {
+        margin-top: 30px;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        padding: 20px;
+        color: white;
+      }
+      main {
+        min-height: 100vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIql6tRWdOQE7Xx5Pb5gWl1wvdkJ2YEl-lqqi5SBpcQ&s=10")
+            center/cover no-repeat;
+      }
+      #container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .order {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px gray;
+        transition: transform 1s;
+      }
+      .order:hover {
+        transform: scale(1.1);
+      }
+
+      .order h3 {
+        margin: 0;
+        width: 25%;
+      }
+      #rst2 {
+        color: white;
+      }
+      .dl {
+        color: green;
+      }
+      .pd {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <nav id="nav">
+        <marquee behavior="" direction="">
+          Order Now To Get Buy 1 Get 1 Free Food
+        </marquee>
+        <p class="link"><a href="./index.html">Home</a></p>
+        <p class="link"><a href="./food-section.html">FOOD SECTION</a></p>
+        <p class="link"><a href="./orders.html">ORDERS</a></p>
+        <p class="link"><a href="./login.html">LOG-IN</a></p>
+      </nav>
+    </header>
+    <main>
+      <article>
+        .
+        <h1 id="rst2">Your Orders</h1>
+        <div id="container">
+          <div class="order">
+            <h3>Order : Shadab</h3>
+            <h3>2 Items</h3>
+            <h3>$470</h3>
+            <h3 class="dl">Delivered</h3>
+          </div>
+          <div class="order">
+            <h3>Order : Mehfil</h3>
+            <h3>4 Items</h3>
+            <h3>$759</h3>
+            <h3 class="dl">Delivered</h3>
+          </div>
+          <div class="order">
+            <h3>Order : Shoh Ghouse</h3>
+            <h3>3 Items</h3>
+            <h3>$500</h3>
+            <h3 class="dl">Delivered</h3>
+          </div>
+          <div class="order">
+            <h3>Order : Capital</h3>
+            <h3>1 Items</h3>
+            <h3>$299</h3>
+            <h3 class="dl">Delivered</h3>
+          </div>
+          <div class="order">
+            <h3>Order : Meridian</h3>
+            <h3>3 Items</h3>
+            <h3>$609</h3>
+            <h3 class="dl">Delivered</h3>
+          </div>
+          <div class="order">
+            <h3>Order : Pista House</h3>
+            <h3>5 Items</h3>
+            <h3>$890</h3>
+            <h3 class="pd">Pending...</h3>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Copy Rights Puchased By Amar</footer>
+  </body>
+</html>

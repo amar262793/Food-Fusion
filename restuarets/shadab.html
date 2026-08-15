@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFusion</title>
+    <style>
+      body {
+        margin: 0px;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      #nav {
+        display: flex;
+        justify-content: right;
+      }
+      .link {
+        padding: 10px;
+        transition: transform 1s;
+      }
+      .link:hover {
+        transform: scale(1.3);
+      }
+      .link:active {
+        background-color: rgb(57, 167, 223);
+        border-radius: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #head {
+        background-color: black;
+        color: white;
+
+        font-weight: bolder;
+      }
+      marquee {
+        margin-top: 30px;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      #f-sec {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        padding: 20px;
+        color: white;
+      }
+      main {
+        background: linear-gradient(to right, #160808, #6b1d1d, #d4af37);
+        color: white;
+      }
+      #d-img {
+        min-height: 60vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url("https://www.shadab.ai/_next/image?url=https%3A%2F%2Famunikimage.blr1.digitaloceanspaces.com%2F1770391824411-Hotel-Shadab-1024x484.jpg&w=3840&q=90")
+            center/cover no-repeat;
+      }
+      #d-data {
+        padding: 20px;
+      }
+      .items {
+        color: black;
+        background-color: white;
+        width: 95%;
+        height: 280px;
+        text-align: left;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        overflow: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .img-it {
+        float: left;
+        width: 250px;
+        height: 200px;
+        margin-right: 20px;
+      }
+      .bt4 {
+        width: 60%;
+        text-align: center;
+        margin-left: 20px;
+        padding: 15px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <nav id="nav">
+        <marquee behavior="" direction="">
+          Order Now To Get Buy 1 Get 1 Free Food
+        </marquee>
+        <p class="link"><a href="../index.html">Home</a></p>
+        <p class="link"><a href="../food-section.html">FOOD SECTION</a></p>
+        <p class="link"><a href="../orders.html">ORDERS</a></p>
+        <p class="link"><a href="../login.html">LOG-IN</a></p>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div id="d-img"></div>
+        <div id="d-data">
+          <div class="items">
+            <h2>🍖 Mutton Dalcha</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlvX9vVyyXmEm1VFCMrH0aCsBg25UbtMysydC0tmnMRA&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Tender mutton cooked with lentils and aromatic spices in a
+              flavorful gravy.
+            </p>
+            <p>
+              A traditional Hyderabadi dish that pairs beautifully with rice.
+            </p>
+            <p>$250.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍗 Chicken 65 Dry</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvtMQpf41CgrG-FReuc1fik7u-Y3OLWCqtqUngRqVOww&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Crispy fried chicken pieces seasoned with spicy herbs and
+              traditional spices.
+            </p>
+            <p>Crunchy, juicy, and packed with bold flavors.</p>
+            <p>$220.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍖 Mutton Korma</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqt59I89m858FHwWI7G8l8SKF98qv4plkRcDDloka0Ew&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Tender mutton cooked in a rich, creamy gravy with fragrant spices.
+            </p>
+            <p>
+              A deliciously rich dish that goes perfectly with naan or rice.
+            </p>
+            <p>$280.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍤 Prawn Fry</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_VKBknl_MTaY4ohRQgJHlgjR-K89bAebRhkj7gaNrSA&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Fresh prawns tossed with onions, chilies, and aromatic spices.
+            </p>
+            <p>A spicy and flavorful seafood dish for seafood lovers.</p>
+            <p>$320.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍮 Khubani Ka Meetha</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk0bcpTQ4UOxCQ9_yZ97bDRgCWL3dpnAz1FHb_Z9_m4g&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Sweet dried apricots cooked into a rich, fruity dessert and topped
+              with cream.
+            </p>
+            <p>A classic Hyderabadi sweet to finish your meal.</p>
+            <p>$150.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Copy Rights Puchased By Amar</footer>
+  </body>
+</html>

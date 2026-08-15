@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodFusion</title>
+    <style>
+      body {
+        margin: 0px;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      #nav {
+        display: flex;
+        justify-content: right;
+      }
+      .link {
+        padding: 10px;
+        transition: transform 1s;
+      }
+      .link:hover {
+        transform: scale(1.3);
+      }
+      .link:active {
+        background-color: rgb(57, 167, 223);
+        border-radius: 20%;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #head {
+        background-color: black;
+        color: white;
+
+        font-weight: bolder;
+      }
+      marquee {
+        margin-top: 30px;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      #f-sec {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        padding: 20px;
+        color: white;
+      }
+      main {
+        background: linear-gradient(to right, #1a0f0a, #5c2c1d, #b8860b);
+        color: white;
+      }
+      #d-img {
+        min-height: 60vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url("https://fuddo.in//assets/images/data/Mehfil_Narayanguda.jpg")
+            center/cover no-repeat;
+      }
+      #d-data {
+        padding: 20px;
+      }
+      .items {
+        color: black;
+        background-color: white;
+        width: 95%;
+        height: 280px;
+        text-align: left;
+        margin: 15px;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        overflow: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .img-it {
+        float: left;
+        width: 250px;
+        height: 200px;
+        margin-right: 20px;
+      }
+      .bt4 {
+        width: 60%;
+        text-align: center;
+        margin-left: 20px;
+        padding: 15px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="head">
+      <nav id="nav">
+        <marquee behavior="" direction="">
+          Order Now To Get Buy 1 Get 1 Free Food
+        </marquee>
+        <p class="link"><a href="../index.html">Home</a></p>
+        <p class="link"><a href="../food-section.html">FOOD SECTION</a></p>
+        <p class="link"><a href="../orders.html">ORDERS</a></p>
+        <p class="link"><a href="../login.html">LOG-IN</a></p>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div id="d-img"></div>
+        <div id="d-data">
+          <div class="items">
+            <h2>🍗 Chicken Biryani</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToP1dax0e5YP-K5uoxqShAmZ3g3Aehmdg8qpW7wXFtqg&s"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              A flavorful and aromatic rice dish made with tender chicken,
+              fragrant basmati rice, and special spices.
+            </p>
+            <p>
+              Served hot with delicious flavors, making it a perfect choice for
+              biryani lovers.
+            </p>
+            <p>$170.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍖 Mutton Biryani</h2>
+            <img
+              src="https://us2guntur.com/images//10071img/MuttonBiryani_B_270221.jpg"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              A rich and aromatic rice dish prepared with tender mutton,
+              fragrant basmati rice, and traditional spices.
+            </p>
+            <p>
+              Slow-cooked to perfection, it offers a delicious and satisfying
+              taste for biryani lovers.
+            </p>
+            <p>$190.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍗 Chicken 65</h2>
+            <img
+              src="https://www.shanazrafiq.com/wp-content/uploads/2011/06/6-Chicken-65-new-6.jpg"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Crispy and spicy chicken pieces marinated with special spices and
+              deep-fried to perfection.
+            </p>
+            <p>
+              A flavorful and crunchy starter that pairs perfectly with biryani.
+            </p>
+            <p>$299.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍢 Chicken Tikka</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmGCqF0IJ88w2ySK-jaEZagk7xrt6_GOIWP1cxZ4562A&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              Tender chicken pieces marinated in flavorful spices and grilled to
+              perfection.
+            </p>
+            <p>
+              Juicy, smoky, and delicious, making it a perfect starter for any
+              meal.
+            </p>
+            <p>$299.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+          <div class="items">
+            <h2>🍮 Double Ka Meetha</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTyBQbsDo58OwKP1mfZd-9GAL_jqUFaoUHEm5yJgkK3ffXixN5wvpMMFVK&s=10"
+              alt=""
+              class="img-it"
+            />
+            <p>
+              A traditional Hyderabadi dessert made with fried bread, sweetened
+              milk, and aromatic spices.
+            </p>
+            <p>
+              Rich, creamy, and delicious, making it the perfect sweet ending to
+              your meal.
+            </p>
+            <p>$100.00</p>
+            <button class="bt4">Order Now</button>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>Copy Rights Puchased By Amar</footer>
+  </body>
+</html>
